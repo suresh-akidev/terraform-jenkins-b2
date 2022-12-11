@@ -14,7 +14,7 @@ data "aws_subnet" "subnet_info" {
 }
 
 resource "aws_security_group" "terra-sg-01" {
-  name = "terra-sg-today"
+  name = "terra-sg-today-01"
   description = "today class"
   vpc_id = ""
   ingress {
